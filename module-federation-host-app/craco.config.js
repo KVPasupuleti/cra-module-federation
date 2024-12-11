@@ -9,7 +9,9 @@ module.exports = () => ({
       "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
       "Access-Control-Allow-Headers":
         "X-Requested-With, content-type, Authorization",
-      "Cross-Origin-Resource-Policy": "cross-origin"
+      "Cross-Origin-Resource-Policy": "cross-origin",
+      "Cross-Origin-Embedder-Policy": "require-corp",
+      "Cross-Origin-Opener-Policy": "same-origin"
     },
     port: 3001
   },
